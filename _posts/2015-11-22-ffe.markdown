@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Free For Everyone"
+date:   2015-11-22 06:00:00 -0700
+categories: ionic angular node.js javascript mobile
+---
+So Free For Everyone (FFE) was an idea a friend of mine came up with to try and connect people with a surplus of things with people with a need of things. This idea would be applied to things like furniture, food, clothes, or whatever. Think like [Copia][Copia], but for all things.
+
+This whole thing happened at our school's yearly hackathon, where I was going to find some random people and build dumb stuff like Google Maps Battleship, except with more monetization. Instead, I ran into my friend who already had a group of people from the contracting place she works at. They gave me an invite and I went along.
+
+The application we built used a front end service built in Ionic, as well as a backend server built using Node.js and Express. In a team of five, four people handled the front end portion of the project, while I handled the backend, setting up a MongoDB database using Compose, deploying the server to the IBM cloud servers, and building a decently simple CRUD API, with the ability to like items and add them to your listings (basically like following on Twitter, but for inanimate objects).
+
+Honestly though, most of my work on this project was spent doing dev ops, configuring cloud servers and services to work with our project more so than doing actual programming.
+
+[Here's the API][FFE_API]
+
+As for the mobile side of it, the other guys mostly handled that, since they already worked with Ionic where they worked. (Shoutout to [The Portal at UCI][Portal_Link]. If you're looking for people to hire that aren't me, give these guys a shot.). They got their stuff done, and we demoed at the hackathon.
+
+[The Mobile Stuff][FFA]
+
+We ended up winning a category at the Hackathon for using an SMS integration service. Nothing better than a free Amazon Echo. Though the hackathon's done, the project has kinda faded. I dunno, maybe we'll see it in app stores soon.
+
+[Copia]: https://www.gocopia.com/
+[FFE_API]: https://github.com/EyeWumbo/FFE_API
+[FFA]: https://github.com/EyeWumbo/FFA
+[Portal_Link]: http://www.theportal.io/

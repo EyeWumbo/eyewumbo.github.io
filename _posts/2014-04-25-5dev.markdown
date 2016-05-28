@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Autism App Jam Project"
+date:   2014-04-25 06:00:00 -0700
+categories: libgdx java mobile android
+---
+So one of the first projects that I worked on while in college was part of the yearly Autism App Jam competition that goes on here. The purpose of the competition was to build applications that would positively impact children on the autistic spectrum, whether that was by allowing autistic children to communicate through a visual interface through an application, or by providing some form of therapeutic activity electronically. A team of five people, including myself, worked on our implementation of what we thought would be the best product to bring to the table.
+
+The first thing we did was do some research on autism and what that condition entails. Human intelligence can usually be broken down into multiple forms, whether that be spatial, logical, emotional intelligence, or what have you. After a bit of research in trying to understand autism as a condition, we found that people on the spectrum have higher difficulty in performing tasks relating to certain forms of intelligence, such as emotional intelligence.
+
+With this concept in mind, we moved towards a sort of self help training game that would help develop certain forms of intelligence. One part of this decision stemmed from checking out currently existing applications and what they already did for people on the spectrum. There were already a large number of similar applications relating to image based communication, so we decided against going that route. But more importantly, we had the concept that if some forms of intelligence can be trained, then why not use that to make up for some of the negative impacts that individuals on the autistic spectrum live with?
+
+We built this thing using Java and the libgdx library. Not all of us had Macs, so developing for iOS was out. We used the Java libgdx library as a means of building a graphical interface, handling hitboxes for click and taps, and rendering sprites and art assets (keep in mind that programmer art isn't usually great). We'd picked this because nobody on the team had any experience with pretty much anything except for me, and I had experience with libgdx with a game I'd helped develop in freshman year of college. So we went at it and built something demoable.
+
+[Check it out][5dev].
+
+In the end, we didn't win best in show. We did however win some prize about marketing or something. And that let us walk away with a plush version of the turret from Portal 2, fuzzy lego slippers, and a set of lightsaber chopsticks. The project was discontinued after the competition, but the source code remains.
+
+[5dev]: https://github.com/EyeWumbo/5Dev
